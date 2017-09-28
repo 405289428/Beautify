@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Beautify-登录</title>
+		<link rel="stylesheet" type="text/css" href="css/logal.css"/>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		
+	</head>
+	<body>
+		<!--header-->
+		<div class="header">
+			<div class="header-midd">
+				<a href="index.html"><img src="img/index/logo.jpg"/></a>
+				<div class="mesg">
+					<p>依《网络安全法》相关要求，即日起Beautify会员登陆需绑定手机。为保证您的账户安全及正常使用，如您尚未绑定，请尽快绑定，感谢您的理解和支持！</p>
+				</div>
+			</div>
+		</div>
+		
+		
+		<!--middle-->
+		<div class="middle">
+				<a href="index.html" class="middle-left"></a>
+				<div class="login">
+					<div class="log-top">
+						<a  class="putong" id="putong" href="#">普通登录</a>
+						<a  class="sjdl"  id="sjdl" href="#">手机无密码登录</a>
+					</div>
+					<!--点击普通登录出来的效果-->
+					<div class="log-bottom1" id="log-bottom1">
+						<p><input type="text" name="user" id="user" value="用户名/邮箱/手机号" /></p>
+						<p><input type="text" name="userpass" id="userpass" value="密码" /></p>
+						<p><input type="button" id="logId" value="登录" /></p>
+					</div>
+					<!--点击手机无密码登录显示的效果-->
+					<div class="log-bottom2" id="log-bottom2">
+						<div class="cityandnum">
+							<select name="city" id="cityId">
+								<option value="">中国</option>
+								<option value="">美国</option>
+								<option value="">德国</option>
+								<option value="">俄罗斯</option>
+								<option value="">法国</option>
+								<option value="">巴基斯坦</option>
+							</select>
+					    	 <input type="text" name="user" id="userId" value="手机号" />
+						</div>
+
+						<p>	
+							<input type="button" name="userpass1" id="userpass1" value="获取动态密码" />
+							<input type="text" name="userpass2" id="userpass2" value="动态密码" />
+						</p>
+						<p><input type="button" id="logId" value="登录" /></p>
+					</div>
+					
+					<div class="denglufangshi">
+						<a href="#" class="QQlog"> <img src="img/logal/QQbj.jpg"/>QQ登录</a>
+						<a href="#" class="weixinlog"> <img src="img/logal/wxbj.jpg"/>微信登录</a>
+					</div>
+					<div class="mima">
+						<a href="#">忘记密码</a>
+						<a href="#">免费注册</a>
+					</div>
+				</div>
+		</div>
+		
+		<!--footer部分-->
+		<div class="footerAll">
+			<div class="footer">
+				<div class="footer-left">
+					<ul>
+						<li class="tit">买家帮助</li>
+						<li class="tit1">新手指南</li>
+						<li class="tit1">服务保障</li>
+						<li class="tit1">常见问题</li>
+						<li class="tit1">风险监测</li>
+					</ul>
+					<ul>
+						<li class="tit">商家帮助</li>
+						<li class="tit1">供应商招商</li>
+						<li class="tit1">商家后台</li>
+					</ul>
+					<ul>
+						<li class="tit">关于我们</li>
+						<li class="tit1">关于美丽说</li>
+						<li class="tit1">联系我们</li>
+					</ul>
+					<ul>
+						<li class="tit">关注我们</li>
+						<li class="tit1"><img src="img/index/新浪.jpg" />新浪微博</li>
+						<li class="tit1"><img src="img/index/QQ.jpg" />QQ空间</li>
+						<li class="tit1"><img src="img/index/腾讯.jpg" />腾讯微博</li>
+					</ul>
+				</div>
+				<div class="footer-right">
+					<ul class="tp1">
+						<li class="tit">美丽说微信服务号</li>
+						<li class="ewmt"><img src="img/index/公众号.jpg" /></li>
+					</ul>
+					<ul>
+						<li class="tit">美丽说客户端下载</li>
+						<li class="ewmt"><img src="img/index/客户端.jpg" /></li>
+					</ul>
+				</div>
+			</div>
+			<div class="bottom">
+	            <p class="xinxi">Copynight©2017 Meilishuo.com 电信与信息服务业务经营许可证 100798号 经营性网站备案信息</p>
+				<p>京ICP备11031139号 京公网安备110108006045 客服电话：400-800-577 文明办网文明上网举报电话：010-826 15762 违法不良信息举报中心</p>			
+			</div>
+		</div>
+		<script type="text/javascript" src="js/jquery-1.8.3.min.js" ></script>
+		<script type="text/javascript">
+			
+			$(function()
+			{
+				//登录框的变换
+				$("#putong").click(function(){
+					$("#log-bottom1").css("display","block")
+					$("#log-bottom2").css("display","none")
+					
+					$("#putong").css("color","#ff6666")
+					$("#putong").css("border-bottom-color","#ff3366")
+					
+					$("#sjdl").css("color","#663333")
+					$("#sjdl").css("border-bottom-color","#ffcccc")
+				});
+				$("#sjdl").click(function(){
+					$("#log-bottom1").css("display","none")
+					$("#log-bottom2").css("display","block")
+					
+					$("#sjdl").css("color","#ff6666")
+					$("#sjdl").css("border-bottom-color","#ff3366")
+					
+					$("#putong").css("color","#663333")
+					$("#putong").css("border-bottom-color","#ffcccc")
+					
+				});
+				
+				//普通用户登录时的搜索框获取焦点 失去焦点
+				$("#user").focus(
+					function(){
+						if($("#user").val()=="用户名/邮箱/手机号"){
+							$("#user").val("");
+						}
+					}
+				);
+				$("#user").blur(
+					function(){
+						if($("#user").val()==""){
+							$("#user").val("用户名/邮箱/手机号");
+						}
+					}
+				);
+				$("#userpass").focus(
+					function(){
+						if($("#userpass").val()=="密码"){
+							$("#userpass").val("");
+						}
+					}
+				);
+				$("#userpass").blur(
+					function(){
+						if($("#userpass").val()==""){
+							$("#userpass").val("密码");
+						}
+					}
+				);
+				
+				//手机无密码登录时
+				$("#userId").focus(
+					function(){
+						if($("#userId").val()=="手机号"){
+							$("#userId").val("");
+						}
+					}
+				);
+				$("#userId").blur(
+					function(){
+						if($("#userId").val()==""){
+							$("#userId").val("手机号");
+						}
+					}
+				);
+				
+				$("#userpass2").focus(
+					function(){
+						if($("#userpass2").val()=="动态密码"){
+							$("#userpass2").val("");
+						}
+					}
+				);
+				$("#userpass2").blur(
+					function(){
+						if($("#userpass2").val()==""){
+							$("#userpass2").val("动态密码");
+						}
+					}
+				);
+			})
+				
+
+		</script>
+	</body>
+</html>

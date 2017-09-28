@@ -1,0 +1,230 @@
+
+
+	/*banner部分*/
+	#banner
+	{
+	    position:relative;
+		left:0px;
+		top:0px;
+		width:1230px;
+		height:350px;
+		background-color:pink;
+		overflow:hidden;
+		margin:0 auto;
+		cursor: pointer;
+	}		
+			
+			
+			
+/*模块部分*/
+#moukuai
+{
+	margin:20px auto;
+	width:1230px;
+	height:170px;
+	display: flex;
+	justify-content: space-between;
+}
+/*新品*/
+#xinpin
+{
+	width:1230px;
+	height:933px;
+	margin:0 auto;
+}
+.jinri
+{
+	width:1230px;
+	height:75px;
+}
+.rexiao
+{
+	width:300px;
+	height:75px;
+	margin:0 auto;
+	display: flex;
+	justify-content: space-around;
+}
+.rexiao a
+{
+	height:72px;
+	line-height: 75px;
+	font-size:20px;
+	font-weight: 600;
+	display:block;
+	color:black;
+}
+
+.rexiao a:hover
+{
+	color:#ff6666;
+	border-bottom:3px solid #ff6666;
+}
+.rexiao .jrxp
+{
+	color:#ff6666;
+	border-bottom:3px solid #ff6666;
+}
+.gengduo
+{
+	position:relative;
+	left: 1127px;
+    top: -46px;
+    font-size:14px;
+    color:black;
+    }
+/*商品展示*/
+.spzs
+{
+	display:flex;
+	justify-content: space-between;
+}
+.spjs
+{
+	width:226px;
+	height:80px;
+}
+.money
+{
+	float:left;
+	color:#ff6666;
+	margin-top:5px;
+}
+.sc
+{
+	float:right;
+}
+.shoucangliang
+{
+	position:relative;
+	top:-5px;
+}
+.jianjie
+{
+	display:flex;
+	justify-content: center;
+	clear:both;
+}
+/*好物租赁*/
+.haowuzulin
+{
+	width:1230px;
+	height:506px;
+	margin:0 auto;
+}
+.hwzl-tit
+{
+	height:78px;
+	display:flex;
+	justify-content: space-between;
+	line-height:78px ;
+	color:#666666;
+}
+.hwzh
+{
+	color:#666666;
+	font-size:20px;
+	font-weight: 600;
+}
+.gengduo2
+{
+	position:relative;
+	left:-20px;
+	color:#666666;
+	font-size:12px;
+}
+.weatherAll
+{
+	display:flex;
+	justify-content: space-between;
+}
+.wea-left
+{
+	border:1px solid #CCCCCC;
+}
+.pic1
+{
+	margin-top:14px;
+	display:flex;
+	justify-content: space-around;
+	text-align: center;
+}
+ #jiage
+{
+	font-size:16px;
+	color:#333333;
+	line-height: 40px;
+}
+.wea-middle
+{
+	border:1px solid #CCCCCC;
+}
+.wea-right
+{
+	border:1px solid #CCCCCC;
+}
+
+/*美丽优选*/
+.meiliyouxuan
+{
+	width:1230px;
+	margin:0 auto;
+}
+.mlyx-tlt
+{
+	height:78px;
+	display:flex;
+	justify-content: space-between;
+	line-height:78px ;
+	color:#666666;
+}
+
+
+/*侧边栏*/
+.cebianlan
+{
+	width:30px;
+	background:url(../img/index/bj1.jpg);
+	height:1000px;
+	position:fixed;
+	top:0px;
+	right:0px;
+	border-left:1px solid #ccc;
+}
+.erweima
+{
+	position: relative;
+    left: -142px;
+    top: 78px;
+	 display:none;
+}
+.cbl-one
+{
+	border:1px solid #ccc;
+	width:30px;
+	height:79px;
+	text-align: center;
+}
+.cbl-one a{
+	font-size:12px;
+	color:#666;
+	display: block;
+	width:30px;
+	height:80px;
+}
+.cbl-one i
+{
+	color:#ff3366;
+}
+.cbl-one a:hover i
+{
+	color:white;
+}
+.cbl-one a:hover 
+{
+	color:white;
+}
+.cbl-one a:hover 
+{
+	background:#ff3366;
+}

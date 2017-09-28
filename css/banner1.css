@@ -1,0 +1,66 @@
+
+
+/*banner-one部分*/
+.banner-one
+{
+	width:960px;;
+	height:380px;
+	margin:0 auto;
+	background:pink;
+	margin-top:10px;
+	margin-bottom:20px;
+}
+.banner-one img
+{
+	display:block;
+	width:960px;
+	height:313px;
+}
+
+.banner-bottom
+{
+	background:#ffcc33;
+	width:960px;
+	height:67px;
+	display:flex;
+	justify-content: space-between;
+}
+.banner-bottom a
+{
+	color:white;
+	width:120px;
+	height:67px;
+	line-height: 67px;
+	font-size:18px;
+	text-align: center;
+}
+/*.banner-bottom a:first-child
+{
+	background:#ff6600;
+}*/
+.banner-bottom a:hover
+{
+	background:#91d4c3;
+}
+
+/*商品部分*/
+.goodsFashion
+{
+	width:960px;
+	height:360px;
+	margin:0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.fashion-one a
+{
+	color:#666666;
+	font-size:12px;
+}
+#pric
+{
+	color:#ff6699;
+	font-size:14px;
+	margin-top:15px;
+	font-weight:600;
+}

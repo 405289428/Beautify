@@ -1,0 +1,205 @@
+/*header*/
+.header
+{
+	width:100%;
+	height:98px;
+}
+.header img
+{
+	height:96px;
+}
+.header-midd
+{
+	margin:0 auto;
+	width:1200px;
+	height:98px;
+	display: flex;
+	justify-content: space-between;
+}
+.mesg
+{
+	width:865px;
+	height:30px;
+	border:1px solid #ffcccc;
+	background:url(../img/logal/bj1.jpg);
+	margin:auto;
+	text-align: center;
+}
+.mesg p
+{
+	color:#666666;
+	font-size:12px;
+	height:30px;
+	line-height: 30px;;
+}
+/*middle*/
+.middle
+{
+	width:100%;
+	height:600px;
+	margin:0 auto;
+	background:url(../img/logal/big.png) no-repeat center center;
+}
+.middle-left
+{
+	float:left;
+	width:715px;
+	height:600px;
+}
+
+/*login*/
+.login
+{
+	float:left;
+	width:404px;
+	height:348px;
+	background:#ffeceb;
+	opacity: 0.9;
+	position:absolute;
+	left:715px;
+	top:124px;
+	margin-top:76px;
+}
+.log-top
+{
+	width:404px;
+	height:52px;
+	display:flex;
+	justify-content: space-around;
+	border-bottom:1px solid #ccc;
+}
+.log-top a
+{
+	font-size:14px;
+	font-weight:600;
+	color:#663333;
+	height:50px;
+	line-height: 50px;
+	display:block;
+	width:120px;
+	text-align: center;
+	
+}
+#putong
+{
+	color:#ff6666;
+	border-bottom:3px solid  #ff3366;
+}
+#sjdl
+{
+	border-bottom:3px solid  #ffcccc;
+}
+.log-bottom1
+{
+	margin-top:10px;
+	
+}
+.log-bottom1 p
+{
+	text-align: center;
+	line-height:54px;
+}
+.log-bottom1 input
+{
+	width:310px;
+	height:40px;
+	border:1px solid #ccc;
+	
+}
+#logId
+{
+	background:#ff6666;
+	width:314px;
+	height:40px;
+	border:1px solid #ff6666;
+}
+
+
+.log-bottom2
+{
+	margin-top:10px;
+	display:none;
+}
+.log-bottom2 p
+{
+	text-align: center;
+	line-height:58px;
+}
+.cityandnum
+{
+	margin:0 auto;
+	width:314px;
+	height:100%;
+}
+#cityId,#userpass1
+{
+	width:112px;
+	height:40px;
+}
+#userId,#userpass2
+{
+	width:192px;
+	height:36px;
+	outline: none;
+}
+#userpass1
+{
+	background:#ff6666;
+	border:1px solid #ff6666;
+}
+#logId,#userpass1,#userpass2,#userId
+{
+	color:#996666;
+}
+#logId,#userpass1
+{
+	color:#fff;
+}
+
+
+
+.denglufangshi
+{
+	height:30px;
+	margin-left:48px;
+	margin-top:30px;
+	margin-bottom: 30px;
+}
+.denglufangshi img
+{
+	vertical-align: middle;
+}
+.denglufangshi a
+{
+	font-size:12px;
+	color:#333333;
+	font-weight: 600;
+	float:left;
+	line-height: 22px;
+	height:22px;
+}
+.QQlog
+{
+	margin-left:5px;
+	margin-right:55px;
+}
+.mima
+{
+	
+	margin-left:240px;
+}
+.mima a
+{
+	float:left;
+	font-size:12px;
+	margin-left:26px;
+	text-decoration:underline;
+}
+.mima a:first-child
+{
+	color:#999;
+}
+.mima a:last-child
+{
+	color:#ff6666;
+}

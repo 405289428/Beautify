@@ -1,0 +1,334 @@
+html,body,div,p,dl,dt,dd,ol,ul,li,form,table,tr,td,hr,h1,h2,h,h4,h5,h6,img,input,fieldaet,figure
+	{
+	margin:0; 
+	padding:0;
+	}
+	a{
+		text-decoration: none;
+	}
+	ul
+	{
+		list-style: none;
+	}
+	
+	
+	
+/*工具栏部分*/
+.top
+{
+	width:100%;
+	height:30px;
+	background:url(../img/index/bj1.jpg) repeat-x;
+}
+.top-middle
+{
+	width:1230px;
+	height:30px;
+	margin:0 auto;
+	background:url(../img/index/bj1.jpg) repeat-x;
+	position:relative;
+}
+.top-middle a
+{
+	float:left;
+	color:#666666;
+	font-size:14px;
+	line-height: 30px;
+	width:82px;
+	text-align: center;
+}
+.top-middle a:hover
+{
+	color:red;
+}
+.box img
+{
+	float:left;
+}
+.ul1
+{
+	border:1px solid #ccc;
+	position:absolute;
+	top:30px;
+	left:715px;
+	list-style: none;
+	background:url(../img/index/bj1.jpg) repeat;
+	display:none;
+}
+.ul1 li a
+{
+	border:1px solid #ccc;
+}
+.ul1:hover 
+{
+	color:red;
+}
+.sybj
+{
+	margin-left:20px;
+	margin-right:220px;
+}
+.bj
+{
+	width:107px;
+	/*margin-right:10px;*/
+	background:url(../img/index/abj.jpg) no-repeat right;
+}
+
+.top-middle .box
+{
+	float:left;
+}
+.shouye
+{
+	margin-left:20px;
+	margin-right:220px;
+}
+.ul2
+{
+	position:absolute;
+	top:30px;
+	left:1012px;
+	list-style: none;
+	background:url(../img/index/bj1.jpg) repeat;
+	border:1px solid #ccc;
+	display: none;
+	z-index:999;
+}
+.ul2 li a
+{
+	border:1px solid #ccc;
+}
+.ul2:hover 
+{
+	color:red;
+}
+/*logo、搜索框、二维码部分*/
+.head
+{
+	width:1230px;
+	height:148px;
+	margin:0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.logo
+{
+	display:block;
+	line-height: 148px;
+	text-align: center;
+	margin-left:28px;
+}
+.logo img
+{
+	width:200px;
+	
+}
+.head-middle
+{
+	margin-top:18px;
+}
+.head-middle input
+{
+	float:left;
+	width:360px;
+	height:28px;
+	border:2px solid #ff3366;
+}
+.baobei
+{
+	background:#ff3366;
+	width:44px;
+	height:20px;
+	color:white;
+	font-size:12px;
+	text-align: center;
+}
+.chaolian
+{
+	width:60px;
+	height:30px;
+	float:left;
+	border:1px solid #ff3366;
+	background:url(../img/index/search-bj.jpg) repeat center;
+}
+.ewm
+{
+	position:relative;
+	left:-20px;
+}
+.spa
+{
+	clear:both;
+	font-size:10px;
+	margin-top:40px;
+	display: flex;
+    justify-content: space-around;
+}
+.spa a{
+	color:black;
+}
+.spa .fense
+{
+	color:#ff3366;
+}
+
+/*导航部分*/
+.nav1
+{
+	width:100%;
+	height:41px;
+	background:url(../img/index/navbj.jpg) repeat-x bottom;
+	clear:both;
+}
+.nav
+{
+	width:1230px;
+	height:38px;
+	display: flex;
+	background:white;
+	justify-content: flex-start;
+	margin:0 auto;
+}
+.nav a
+{
+	color:black;
+	font-size:16px;
+	line-height: 38px;
+	text-align:center;
+	font-weight:600;
+	margin-right:88px;
+	height:36px;
+}
+.nav .sy
+{
+	color:#ff6666;
+	border-bottom:2px solid #ff6666;
+}
+.nav a:hover
+{
+	color:#ff6666;
+	border-bottom:2px solid #ff6666;
+}
+
+
+/*侧边栏*/
+.cebianlan
+{
+	width:30px;
+	background:url(../img/index/bj1.jpg);
+	height:1000px;
+	position:fixed;
+	top:0px;
+	right:0px;
+	border-left:1px solid #ccc;
+}
+.erweima
+{
+	position: relative;
+    left: -142px;
+    top: 78px;
+	 display:none;
+}
+.cbl-one
+{
+	border:1px solid #ccc;
+	width:30px;
+	height:79px;
+	text-align: center;
+}
+.cbl-one a{
+	font-size:12px;
+	color:#666;
+	display: block;
+	width:30px;
+	height:80px;
+}
+.cbl-one i
+{
+	color:#ff3366;
+}
+.cbl-one a:hover i
+{
+	color:white;
+}
+.cbl-one a:hover 
+{
+	color:white;
+}
+.cbl-one a:hover 
+{
+	background:#ff3366;
+}
+
+
+
+/*footer部分*/
+.footerAll
+{
+	background:url(../img/index/navbj.jpg) ;
+	border-top:1px solid #CCCCCC;
+	
+}
+.footer
+{
+	width:1230px;
+	height:240px;
+	background:url(../img/index/navbj.jpg);
+	margin:0 auto;
+	border-bottom:1px solid #ccc;
+}
+.footer-left
+{
+	width:720px;
+	height:240px;
+	float:left;
+	display: flex;
+	justify-content: space-around;
+}
+.footer-left ul li
+{
+	line-height:40px;
+	font-size:12px;
+	color:#666666;
+}
+.footer-right
+{
+	width:382px;
+	height:240px;
+	float:right;
+	display: flex;
+	justify-content:space-around;
+	padding-right:110px;
+}
+.footer-right .tit
+{
+	line-height:40px;
+}
+ul li.tit
+{
+	font-size:18px;
+	font-weight:600;
+	color:#666666;
+	margin-bottom:12px;
+	margin-top:36px;
+}
+.tit1:hover
+{
+	color:#ff6699;
+}
+.ewmt
+{
+	text-align: center;
+}
+/*bottom部分*/
+.bottom
+{
+	width:1230px;
+	height:58px;
+	background:url(../img/index/navbj.jpg);
+	margin:0 auto;
+	text-align: center;
+	padding-top:10px;
+	line-height: 24px;;
+}
